@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 颜色规范 start -->
+    <attr name="core_header_start_color" format="reference|color"/>
+    <!-- 颜色规范 end -->
+</resources>

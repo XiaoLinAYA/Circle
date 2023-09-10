@@ -3,7 +3,7 @@ package com.xiaolin.circlecore
 import android.content.Context
 import android.util.TypedValue
 
-object CircleUIThemeManager {
+object CUIThemeManager {
 
     fun getAttrResId(context: Context?, attrId: Int) : Int{
         if (context == null || attrId == 0) {

@@ -1,9 +1,37 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    tools:context=".main.MainActivity">
+    <com.xiaolin.circlecommon.component.TitleBarLayout
+        android:id="@+id/main_title_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"/>
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+    <androidx.viewpager2.widget.ViewPager2
+        android:id="@+id/view_pager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/main_title_bar"
+        android:layout_above="@id/main_navigation_bar"/>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/main_navigation_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="?attr/circle_navigate_bar_bg"
+        app:cardElevation="10dp"
+        app:cardBackgroundColor="?attr/circle_navigate_bar_bg">
+
+        <com.xiaolin.circle.main.MainNavTabRecyclerView
+            android:id="@+id/nav_tab_list"
+            android:layout_width="match_parent"
+            android:layout_height="65dp"/>
+
+    </androidx.cardview.widget.CardView>
+
+</RelativeLayout>

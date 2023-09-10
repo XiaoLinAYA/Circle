@@ -7,7 +7,7 @@ import android.view.View
 import android.view.WindowManager
 import android.view.inputmethod.InputMethodManager
 import androidx.appcompat.app.AppCompatActivity
-import com.xiaolin.circlecore.CircleUIThemeManager
+import com.xiaolin.circlecore.CUIThemeManager
 
 open class BaseLightActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -15,7 +15,7 @@ open class BaseLightActivity : AppCompatActivity() {
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP){
             window.clearFlags(WindowManager.LayoutParams.FLAG_TRANSLUCENT_NAVIGATION)
             window.addFlags(WindowManager.LayoutParams.FLAG_DRAWS_SYSTEM_BAR_BACKGROUNDS)
-            window.statusBarColor = resources.getColor(CircleUIThemeManager.getAttrResId(this,
+            window.statusBarColor = resources.getColor(CUIThemeManager.getAttrResId(this,
                 com.xiaolin.circlecore.R.attr.core_header_start_color))
             window.navigationBarColor = resources.getColor(R.color.navigation_bar_color,null)
             var vis = window.decorView.systemUiVisibility

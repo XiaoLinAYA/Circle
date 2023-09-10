@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="core_title_bar_text_bg" format="reference|color"/>
+    <attr name="core_title_bar_back_icon" format="reference"/>
+    <attr name="core_title_bar_bg" format="reference"/>
+</resources>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="UnreadCountTextView">
+        <attr name="paint_color" format="color|reference"/>
+    </declare-styleable>
+
+    <declare-styleable name="TitleBarLayout">
+        <attr name="title_bar_middle_title" format="string" />
+        <attr name="title_bar_can_return" format="boolean" />
+    </declare-styleable>
+</resources>

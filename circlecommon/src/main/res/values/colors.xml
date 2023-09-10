@@ -9,4 +9,6 @@
     <color name="white">#FFFFFFFF</color>
 
     <color name="navigation_bar_color">#F7F7F7</color>
+
+    <color name="read_dot_bg">#f74c31</color>
 </resources>

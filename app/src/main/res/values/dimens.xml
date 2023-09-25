@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="tab_bottom_item_width">80dp</dimen>
+
+    <dimen name="title_bar_icon_size">23.04dp</dimen>
+</resources>

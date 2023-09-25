@@ -13,6 +13,7 @@
             <option value="$PROJECT_DIR$/app" />
             <option value="$PROJECT_DIR$/circlecommon" />
             <option value="$PROJECT_DIR$/circlecore" />
+            <option value="$PROJECT_DIR$/cuiconversation" />
           </set>
         </option>
       </GradleProjectSettings>

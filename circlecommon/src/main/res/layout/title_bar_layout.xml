@@ -20,7 +20,7 @@
             android:layout_width="20dp"
             android:layout_height="20dp"
             android:clickable="false"
-            android:background="?attr/core_title_bar_back_icon"/>
+           />
 
         <com.xiaolin.circlecommon.component.UnreadCountTextView
             android:id="@+id/new_message_total_unread"
@@ -39,7 +39,7 @@
             android:id="@+id/page_title_left_text"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:textColor="?attr/core_title_bar_text_bg"
+
             android:gravity="center"
             android:textSize="16.3sp"
             android:textStyle="bold"/>
@@ -54,7 +54,7 @@
         android:singleLine="true"
         android:ellipsize="end"
         android:textAlignment="gravity"
-        android:textColor="?attr/core_title_bar_text_bg"
+
         android:textSize="16.3sp"
         android:textStyle="bold"
         android:gravity="center"
@@ -75,7 +75,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:gravity="right"
-            android:textColor="?attr/core_title_bar_text_bg"
+
             android:textSize="16.3sp"
             android:textStyle="bold"/>
 

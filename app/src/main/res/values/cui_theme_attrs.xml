@@ -1,4 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <attr name="circle_navigate_bar_bg" format="reference|color"/>
+
+    <attr name="main_tab_conversation_normal_bg" format="reference"/>
+    <attr name="main_tab_conversation_selected_bg" format="reference"/>
+
+    <attr name="main_tab_contact_normal_bg" format="reference"/>
+    <attr name="main_tab_contact_selected_bg" format="reference"/>
+
+    <attr name="main_tab_community_normal_bg" format="reference"/>
+    <attr name="main_tab_community_selected_bg" format="reference"/>
+
+
+    <attr name="main_tab_profile_normal_bg" format="reference"/>
+    <attr name="main_tab_profile_selected_bg" format="reference"/>
+
+    <attr name="main_tab_selected_text_color" format="reference|color"/>
+    <attr name="main_tab_normal_text_color" format="reference|color"/>
 </resources>

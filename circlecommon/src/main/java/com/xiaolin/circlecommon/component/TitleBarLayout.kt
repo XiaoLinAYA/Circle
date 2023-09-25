@@ -94,7 +94,7 @@ class TitleBarLayout : LinearLayout,CTitleBarLayout {
         mLeftGroup.setOnClickListener(listener)
     }
 
-    override fun setRightClickListener(listener: OnClickListener) {
+    override fun setOnRightClickListener(listener: OnClickListener) {
         mRightGroup.setOnClickListener(listener)
     }
 

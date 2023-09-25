@@ -16,7 +16,7 @@ interface CTitleBarLayout {
      * 设置右边标题点击事件
      *
      * */
-    fun setRightClickListener(listener: OnClickListener)
+    fun setOnRightClickListener(listener: OnClickListener)
 
     /**
      * 设置标题

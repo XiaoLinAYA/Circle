@@ -1,5 +1,6 @@
 package com.xiaolin.circlecommon
 
+import android.app.Activity
 import android.content.Context
 import android.os.Build
 import android.os.Bundle
@@ -15,8 +16,8 @@ open class BaseLightActivity : AppCompatActivity() {
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP){
             window.clearFlags(WindowManager.LayoutParams.FLAG_TRANSLUCENT_NAVIGATION)
             window.addFlags(WindowManager.LayoutParams.FLAG_DRAWS_SYSTEM_BAR_BACKGROUNDS)
-            window.statusBarColor = resources.getColor(CUIThemeManager.getAttrResId(this,
-                com.xiaolin.circlecore.R.attr.core_header_start_color))
+//            window.statusBarColor = resources.getColor(CUIThemeManager.getAttrResId(this,
+//                com.xiaolin.circlecore.R.attr.core_header_start_color),null)
             window.navigationBarColor = resources.getColor(R.color.navigation_bar_color,null)
             var vis = window.decorView.systemUiVisibility
             vis = vis or View.SYSTEM_UI_FLAG_LIGHT_STATUS_BAR

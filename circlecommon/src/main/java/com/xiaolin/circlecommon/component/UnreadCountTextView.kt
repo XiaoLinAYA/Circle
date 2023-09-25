@@ -70,6 +70,6 @@ class UnreadCountTextView : AppCompatTextView{
 
     private fun dp2px(dp :Float):Int{
         val displayMetrics=resources.displayMetrics
-        return TypedValue.applyDimension(TypedValue.COMPLEX_UNIT_DIP,dp,displayMetrics) as Int
+        return (TypedValue.applyDimension(TypedValue.COMPLEX_UNIT_DIP,dp,displayMetrics)).toInt()
     }
 }
